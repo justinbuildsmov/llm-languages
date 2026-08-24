@@ -1,0 +1,10 @@
+[project]
+name = "llm-languages"
+version = "0.1.0"
+description = "Ask Claude and ChatGPT the same question across 10 languages and compare"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.0",
+    "openai>=2.0",
+    "python-dotenv>=1.0",
+]
